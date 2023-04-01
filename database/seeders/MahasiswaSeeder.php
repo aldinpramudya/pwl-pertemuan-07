@@ -17,6 +17,8 @@ class MahasiswaSeeder extends Seeder
         DB::table('mahasiswas')->insert([
             'Nim'=> 2141720233,
             'Nama'=> 'Aldin Ariel Pramudya',
+            'Email'=> 'aldinarielpramudya@gmail.com',
+            'TanggalLahir' => '23 April 2003',
             'Kelas'=> '2G',
             'Jurusan'=> 'Teknologi Informasi',
             'No_Handphone'=> '08597654738'

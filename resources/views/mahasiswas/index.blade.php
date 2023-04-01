@@ -21,6 +21,8 @@
         <tr>
             <th>Nim</th>
             <th>Nama</th>
+            <th>Email</th>
+            <th>TanggalLahir</th>
             <th>Kelas</th>
             <th>Jurusan</th>
             <th>No_Handphone</th>
@@ -30,6 +32,8 @@
         <tr>
             <td>{{ $Mahasiswa->Nim }}</td>
             <td>{{ $Mahasiswa->Nama }}</td>
+            <td>{{ $Mahasiswa->Email }}</td>
+            <td>{{ $Mahasiswa->TanggalLahir }}</td>
             <td>{{ $Mahasiswa->Kelas }}</td>
             <td>{{ $Mahasiswa->Jurusan }}</td>
             <td>{{ $Mahasiswa->No_Handphone }}</td>
@@ -45,4 +49,5 @@
         </tr>
         @endforeach
     </table>
+    {{$mahasiswas->links()}}
 @endsection
